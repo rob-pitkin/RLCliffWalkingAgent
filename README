@@ -1,0 +1,38 @@
+Assignment: RL Homework 3
+Class: CS-138 Reinforcement Learning
+Author: Rob Pitkin
+
+Required libraries/dependencies:
+- numpy
+- matplotlib
+- copy
+
+Run:
+$ python agent.py
+$ python agent.py
+
+For user controls:
+$ python main.py
+$ python main.py
+
+Notes:
+I chose to prompt the user for inputs to make the implementation be able
+to handle different experiments. In order to match the experiments done
+in my report, one should input in this order:
+- For default values:
+    - n
+    - n
+    - n
+    - n
+- For decreasing epsilon values:
+    - y
+    - n
+    - n
+- For custom values:
+    - n
+    - y
+    - Your epsilon value as a float
+    - y
+    - Your alpha value as a float
+    - y
+    - Your gamma value as a float
